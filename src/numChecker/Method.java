@@ -9,6 +9,11 @@ public class Method {
 		} else {
 			z = numX * numY;
 		}
-		return z;
+//q3, print 0 if either numX/numY == even, else print the number
+		if (numX % 2 == 0 || numY % 2 == 0) {
+			return 0;
+		} else {
+			return z;
+		}
 	}
 }
